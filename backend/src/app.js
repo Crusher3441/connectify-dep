@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-app.use( "/api/v1/users" , userRoutes );
+app.use( "api/v1/users" , userRoutes );
 
 app.get("/" , (req,res)=>{
     return res.json({"message" : "Hello World"});
