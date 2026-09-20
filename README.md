@@ -6,7 +6,7 @@ Connectify is a full-stack video conferencing app for real-time communication. A
 
 ## Demo
 
-Try it here: [Connectify on Render]()
+Try it here: [Connectify on Render](https://connectify-dep.vercel.app/)
 
 ## Features
 
