@@ -85,7 +85,7 @@ export default function VideoMeetComponent() {
     
     let [username, setUsername] = useState(""); // username entered
     
-    const videoRef = useRef([]) // later - remote videos container
+    
     let [videos, setVideos] = useState([]) // stores : [{socketID: "id1", stream: "mediaStream"}]
 
     // ---------------------------------------------------------------------------------------------------------------------------------------- //
@@ -161,9 +161,9 @@ export default function VideoMeetComponent() {
 
     // ---------------------------------------------------------------------------------------------------------------------------------------- //
 
-    let getUserMediaSuccess = (stream) => {
-        console.log("[VideoMeet2] getUserMediaSuccess called", stream);
-    };
+    // let getUserMediaSuccess = (stream) => {
+    //     console.log("[VideoMeet2] getUserMediaSuccess called", stream);
+    // };
 
     // ---------------------------------------------------------------------------------------------------------------------------------------- //
 
