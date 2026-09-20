@@ -1,8 +1,10 @@
 import {Router} from "express"
 import { addToHistory, getUserHistory, register , login  } from "../controllers/user.controller.js";
+import { health } from "./health.js";
 
 const router = Router();
 
+router.route("/health").get(health);
 router.route("/login").post(login);
 router.route("/register").post(register);
 router.route("/add_to_activity").post(addToHistory);
